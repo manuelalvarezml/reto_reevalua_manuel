@@ -4,8 +4,6 @@ Este repo mezcla machine learning tradicional con modelos generativos para prede
 
 ## 📁 Estructura del proyecto
 
-## 📁 Project Structure
-
 ```
 ├── artifacts/ # Transformadores guardados (OneHotEncoder, TF-IDF)
 ├── auxiliar_scripts/ # Scripts auxiliares para regenerar errores
