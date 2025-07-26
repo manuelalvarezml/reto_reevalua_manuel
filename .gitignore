@@ -1,0 +1,9 @@
+reto_reevalua_env/
+__pycache__/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore environment/config files
+.env
+.DS_Store

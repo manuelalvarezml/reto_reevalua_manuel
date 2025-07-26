@@ -1,0 +1,15 @@
+male,2,own,moderate,moderate,radio/TV,low,mid-old,long
+female,1,free,rich,rich,furniture,low,young,mid-long
+male,3,own,rich,rich,car,mid-low,mid-old,long
+female,2,own,moderate,moderate,radio/TV,mid-low,old,mid-long
+male,2,own,rich,moderate,education,mid-high,mid-young,long
+female,0,rent,unknown,unknown,radio/TV,high,young,short
+male,1,free,little,unknown,car,high,young,mid-short
+male,2,rent,little,little,furniture,mid-high,mid-young,short
+female,1,free,unknown,little,education,high,mid-young,short
+male,0,free,little,little,radio/TV,high,young,short
+female,2,own,moderate,little,radio/TV,mid-low,mid-young,mid-long
+male,3,own,little,moderate,furniture,mid-high,mid-old,mid-long
+female,1,own,unknown,moderate,car,mid-high,mid-old,mid-short
+male,2,rent,moderate,unknown,radio/TV,mid-low,young,mid-long
+female,2,own,moderate,moderate,radio/TV,mid-low,mid-young,mid-short

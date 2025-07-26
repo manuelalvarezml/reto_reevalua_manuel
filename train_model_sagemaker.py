@@ -36,9 +36,9 @@ xgb_estimator = Estimator(
 # Step 4: Set hyperparameters
 xgb_estimator.set_hyperparameters(
     objective="binary:logistic",
-    num_round=100,
-    max_depth=5,
-    eta=0.2,
+    num_round=20, # ↓ from 100
+    max_depth=3, # ↓ from 5
+    eta=0.1, # ↓ from 0.2
     eval_metric="auc"
 )
 
