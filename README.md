@@ -7,7 +7,7 @@ Este proyecto combina modelos generativos (Amazon Bedrock) con machine learning 
 ## 📁 Estructura del Proyecto
 
 ```
-├── artifacts/                      # Preprocesadores guardados (OneHotEncoder, TF-IDF)
+├── artifacts/                      # Preprocesadores guardados (OneHotEncoder)
 ├── downloaded_artifacts/          # Artifacts descargados del modelo entrenado
 ├── data_files/                    # Dataset original + columnas generadas (description, target)
 ├── bedrock_test_files/            # Pruebas para conexión y modelos disponibles de Bedrock
@@ -17,8 +17,8 @@ Este proyecto combina modelos generativos (Amazon Bedrock) con machine learning 
 ├── test_data_for_inference.csv    # Archivo de prueba para hacer inferencia en el endpoint
 ├── eda_credit_risk.ipynb          # Exploración de datos (EDA)
 ├── generate_descriptions.py       # Usa Bedrock para crear la columna 'description'
-├── generate_risk_targets.py       # Usa Bedrock para generar la columna 'target' (good/bad)
-├── preprocess_for_sagemaker.py    # Preprocesa y guarda archivos para SageMaker (OneHot + TFIDF)
+├── generate_risk_targets.py       # Usa Bedrock para generar la columna 'target' (good/bad risk)
+├── preprocess_for_sagemaker.py    # Preprocesa y guarda archivos para SageMaker (OneHot)
 ├── train_logreg_sagemaker.py      # Entrena regresión logística con sklearn en la nube
 ├── deploy_model_sagemaker.py      # Despliega el endpoint en SageMaker
 ├── invoke_endpoint.py             # Realiza inferencia en el endpoint
