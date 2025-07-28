@@ -1,8 +1,8 @@
 Classification Report:
-0: {'precision': 0.5172413793103449, 'recall': 0.32608695652173914, 'f1-score': 0.4, 'support': 46}
-1: {'precision': 0.8187134502923976, 'recall': 0.9090909090909091, 'f1-score': 0.8615384615384616, 'support': 154}
-accuracy: 0.775
-macro avg: {'precision': 0.6679774148013713, 'recall': 0.6175889328063241, 'f1-score': 0.6307692307692307, 'support': 200}
-weighted avg: {'precision': 0.7493748739665255, 'recall': 0.775, 'f1-score': 0.7553846153846154, 'support': 200}
+0: {'precision': 0.4166666666666667, 'recall': 0.7608695652173914, 'f1-score': 0.5384615384615384, 'support': 46}
+1: {'precision': 0.9051724137931034, 'recall': 0.6818181818181818, 'f1-score': 0.7777777777777777, 'support': 154}
+accuracy: 0.7
+macro avg: {'precision': 0.6609195402298851, 'recall': 0.7213438735177866, 'f1-score': 0.658119658119658, 'support': 200}
+weighted avg: {'precision': 0.7928160919540229, 'recall': 0.7, 'f1-score': 0.7227350427350426, 'support': 200}
 
-ROC AUC Score: 0.7929
+ROC AUC Score: 0.7974

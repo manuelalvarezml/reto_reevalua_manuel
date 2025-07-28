@@ -16,8 +16,8 @@ sagemaker_session = sagemaker.Session()
 model = SKLearnModel(
     model_data=model_s3_uri,
     role=role,
-    entry_point="train_logreg.py",  # This script should include inference code
-    framework_version="0.23-1",
+    entry_point="train_logreg.py", 
+    framework_version="1.2-1",
     sagemaker_session=sagemaker_session
 )
 

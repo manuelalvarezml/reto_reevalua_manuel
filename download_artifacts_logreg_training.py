@@ -4,7 +4,7 @@ import tarfile
 
 # Update these
 bucket = "sagemaker-us-west-2-784608183649"
-job_name = "logreg-eval-job-2025-07-26-06-51-07-847"
+job_name = "logreg-eval-job-2025-07-26-20-08-25-636"
 artifact_path = f"{job_name}/output/model.tar.gz"
 download_path = "downloaded_artifacts"
 local_tar_path = os.path.join(download_path, "model.tar.gz")
