@@ -1,6 +1,6 @@
 # 🏦 Clasificación de Riesgo Crediticio con SageMaker + Bedrock
 
-Este proyecto combina modelos generativos (Amazon Bedrock) con machine learning tradicional para predecir riesgo crediticio. Se generan descripciones (`description`) y etiquetas (`target`) con GenAI y se entrena un modelo en SageMaker (XGBoost o Logistic Regression) para inferir riesgo de crédito.
+Este proyecto combina modelos generativos (Amazon Bedrock) con machine learning tradicional para predecir riesgo crediticio. Se generan descripciones (`description`) y etiquetas (`target`) con GenAI y se entrena un modelo en SageMaker (Logistic Regression) para inferir riesgo de crédito.
 
 ---
 
